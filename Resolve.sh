@@ -9,10 +9,11 @@ apt-get install game-repo -y
 termux-change-repo
 curl -LO https://its-pointless.github.io/setup-pointless-repo.sh
 bash setup-pointless-repo.sh
-termux-change-repo
 apt-get install -y
 apt-get update -y
 apt-get upgrade -y
+apt-get install apt -y
+apt-get install gpgv -y
 chmod +x setup-pointless-repo.sh
 ./setup-pointless-repo.sh
 
