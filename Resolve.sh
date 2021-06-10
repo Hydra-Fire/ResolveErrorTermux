@@ -13,7 +13,8 @@ termux-change-repo
 apt-get install -y
 apt-get update -y
 apt-get upgrade -y
-
+chmod +x setup-pointless-repo.sh
+./setup-pointless-repo.sh
 
 echo"Support Me, i'M a Smart Bot yOutuBe"
 echo"Subscribe My ChanneLs"
