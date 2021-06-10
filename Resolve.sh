@@ -13,6 +13,8 @@ termux-change-repo
 apt-get install -y
 apt-get update -y
 apt-get upgrade -y
+
+
 echo"Support Me, i'M a Smart Bot yOutuBe"
 echo"Subscribe My ChanneLs"
 echo""
